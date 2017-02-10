@@ -1,4 +1,4 @@
-package cap2;
+package flyweight;
 
 public class Do implements Nota {
 

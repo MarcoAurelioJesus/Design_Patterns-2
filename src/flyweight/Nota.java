@@ -1,4 +1,4 @@
-package cap2;
+package flyweight;
 
 public interface Nota {
     String simbolo();

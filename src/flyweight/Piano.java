@@ -1,4 +1,4 @@
-package cap2;
+package flyweight;
 
 import java.util.List;
 import org.jfugue.player.Player;

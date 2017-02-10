@@ -1,11 +1,11 @@
-package cap2;
+package flyweight;
 
-public class La implements Nota {
+public class Fa implements Nota {
 
 	@Override
 	public String simbolo() {
 		// TODO Auto-generated method stub
-		return "A";
+		return "F";
 	}
 
 }

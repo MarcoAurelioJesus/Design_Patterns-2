@@ -1,4 +1,4 @@
-package cap2;
+package flyweight;
 
 import java.util.Arrays;
 import java.util.List;
