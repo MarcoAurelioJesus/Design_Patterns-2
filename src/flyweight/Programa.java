@@ -9,6 +9,8 @@ public class Programa {
 
         NotasMusicais notas = new NotasMusicais();
 
+        Piano piano = new Piano();
+        
         List<Nota> doReMiFa = Arrays.asList(
             notas.pega("do"),    
             notas.pega("re"),    
@@ -39,9 +41,10 @@ public class Programa {
             notas.pega("fa")
         ); 
         
-        Piano piano = new Piano();
+        
         piano.toca(doReMiFa);
+        System.out.println(doReMiFa.listIterator());
     }
 
-
+	List<Nota> doReMiFa = Arrays.asList();
 }
